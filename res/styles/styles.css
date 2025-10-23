@@ -1,33 +1,50 @@
 body {
   background-color: #d72324;
 }
+
 @font-face {
     font-family: "tnr_cond";
     src: url(res/other/Times\ New\ Roman\ MT\ Std\ Bold\ Condensed.ttf);
 }
+
 h1 {
   color: blue;
   font-family: tnr_cond;
   text-align: center;
 }
+
 h2 {
     color: greenyellow;
     font-family: tnr_cond;
     text-align: center;
 }
+
 p {
   color: black;
   font-family: tnr_cond;
   text-align: center;
 }
+
 button {
   background-color: white;
   color: black;
   font-family: tnr_cond;
   text-align: center;
 }
+
 button:hover {
   background-color: aqua;
   color: black;
   font-family: tnr_cond;
+}
+
+.first, .second, .third, .fourth, .fifth{
+  float: left;
+  width: 20%;
+}
+
+@media screen and (max-width: 800px) {
+  .first, .second, .third, .fourth, .fifth {
+    width: 100%; /* set width to 100 when on a small screen*/
+  }
 }
