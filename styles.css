@@ -1,0 +1,19 @@
+body {
+  background-color: #d72324;
+}
+@font-face {
+    font-family: "tnr_cond";
+    src: url(res/other/Times\ New\ Roman\ MT\ Std\ Bold\ Condensed.ttf);
+}
+h1 {
+  color: blue;
+  font-family: tnr_cond;
+}
+h2 {
+    color: greenyellow;
+    font-family: tnr_cond;
+}
+p {
+  color: black;
+  font-family: tnr_cond;
+}
