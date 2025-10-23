@@ -51,6 +51,6 @@ button:hover {
 
 @media screen and (max-width: 800px) {
   .first, .second, .third, .fourth, .fifth {
-    width: 100%; /* set width to 100 when on a small screen */
+    width: 90%; /* set width to 100 when on a small screen */
   }
 }
