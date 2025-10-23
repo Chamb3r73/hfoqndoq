@@ -8,12 +8,15 @@ body {
 h1 {
   color: blue;
   font-family: tnr_cond;
+  text-align: center;
 }
 h2 {
     color: greenyellow;
     font-family: tnr_cond;
+    text-align: center;
 }
 p {
   color: black;
   font-family: tnr_cond;
+  text-align: center;
 }
