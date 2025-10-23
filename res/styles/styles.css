@@ -25,6 +25,10 @@ p {
   text-align: center;
 }
 
+img {
+  width: 80%;
+}
+
 button {
   background-color: white;
   color: black;
@@ -39,12 +43,14 @@ button:hover {
 }
 
 .first, .second, .third, .fourth, .fifth{
-  float: left;
-  width: 20%;
+  /* float: left; */
+  width: 17%;
+  height: 60;
+  margin: 20px;
 }
 
 @media screen and (max-width: 800px) {
   .first, .second, .third, .fourth, .fifth {
-    width: 100%; /* set width to 100 when on a small screen*/
+    width: 100%; /* set width to 100 when on a small screen */
   }
 }
