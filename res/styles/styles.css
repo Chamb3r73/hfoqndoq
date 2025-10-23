@@ -42,11 +42,18 @@ button:hover {
   font-family: tnr_cond;
 }
 
-.first, .second, .third, .fourth, .fifth{
+.first, .second, .third, .fourth, .fifth {
   /* float: left; */
   width: 17%;
   height: 60;
   margin: 20px;
+}
+
+.poster {
+  display: none;
+  width: auto;
+  height: 200;
+  margin: 10px;
 }
 
 @media screen and (max-width: 800px) {

@@ -1,5 +1,10 @@
-function greet(){
-    alert("HFOQNDOQ!!");
+function setInstructions(box){
+    let insBox = document.getElementById("instructions");
+    if (insBox.textContent == "Click a box and instructions go here"){
+        insBox.textContent = "Select a movie to download"
+    } else {
+        insBox.textContent = "Click a box and instructions go here"
+    }
 }
 
 function first(){
@@ -7,7 +12,15 @@ function first(){
 }
 
 function second(){
-    alert("Imagine a bunch of posters came up and you could click one and it would let you download the film in question");
+    // alert("Imagine a bunch of posters came up and you could click one and it would let you download the film in question");
+    let posters = document.getElementsByClassName("poster");
+    Array.from(posters).forEach(poster => {
+        if (poster.style.display == "inline"){
+        poster.style.display = "none";
+    } else {
+        poster.style.display = "inline";
+    }
+    })
 }
 
 function third(){
