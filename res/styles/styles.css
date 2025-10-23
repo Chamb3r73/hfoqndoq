@@ -20,3 +20,14 @@ p {
   font-family: tnr_cond;
   text-align: center;
 }
+button {
+  background-color: white;
+  color: black;
+  font-family: tnr_cond;
+  text-align: center;
+}
+button:hover {
+  background-color: aqua;
+  color: black;
+  font-family: tnr_cond;
+}
