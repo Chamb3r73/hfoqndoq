@@ -1,5 +1,5 @@
 body {
-  background-color: #d72324;
+  background-color: #292626;
 }
 
 @font-face {
@@ -23,45 +23,4 @@ p {
   color: black;
   font-family: tnr_cond;
   text-align: center;
-}
-
-img {
-  width: 80%;
-}
-
-button {
-  background-color: white;
-  color: black;
-  font-family: tnr_cond;
-  text-align: center;
-}
-
-button:hover {
-  background-color: aqua;
-  color: black;
-  font-family: tnr_cond;
-}
-
-.first, .second, .third, .fourth, .fifth {
-  /* float: left; */
-  width: 17%;
-  height: 60;
-  margin: 20px;
-}
-
-.poster {
-  display: none;
-  width: auto;
-  height: 200;
-  margin: 10px;
-}
-
-@media screen and (max-width: 800px) {
-  .first, .second, .third, .fourth, .fifth {
-    width: 90%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 5%;
-    margin-right: 5%;
-  }
 }
