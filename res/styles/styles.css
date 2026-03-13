@@ -12,11 +12,12 @@ body {
   color: white;
   font-family: tnr_cond;
   text-align: center;
-  padding: 5px;
+  padding: 0px;
+  width: 100%;
 }
 
 .site-header p {
-  color: aliceblue;
+  color: white;
 }
 
 main {
@@ -24,13 +25,13 @@ main {
 }
 
 h2 {
-    color: whitesmoke;
+    color: white;
     font-family: tnr_cond;
     text-align: center;
 }
 
 p {
-  color: whitesmoke;
+  color: white;
   font-family: tnr_cond;
   text-align: center;
 }
