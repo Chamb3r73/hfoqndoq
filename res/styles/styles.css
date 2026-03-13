@@ -1,10 +1,10 @@
-body {
-  background-color: #292626;
-}
-
 @font-face {
     font-family: "tnr_cond";
     src: url(res/other/Times\ New\ Roman\ MT\ Std\ Bold\ Condensed.ttf);
+}
+
+body {
+  background-color: #292626;
 }
 
 .site-header {
@@ -12,8 +12,9 @@ body {
   color: white;
   font-family: tnr_cond;
   text-align: center;
-  padding: 0px;
+  margin: 0px;
   width: 100%;
+  border-radius: 5px;
 }
 
 .site-header p {
@@ -24,14 +25,20 @@ main {
   background-color: #292626;
 }
 
-h2 {
-    color: white;
-    font-family: tnr_cond;
-    text-align: center;
+.profile {
+  /* this font might be good im not sure. id like to use a more custom font later */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  margin-left: 25px;
 }
 
-p {
-  color: white;
-  font-family: tnr_cond;
-  text-align: center;
+.profile img {
+  /* the above section will set default options, which we can override case-by-case here */
+  border-radius: 50%;
+}
+
+.profile p {
+  font-family:'Courier New', Courier, monospace;
+  max-width: 410px;
+  text-overflow: clip;
 }
