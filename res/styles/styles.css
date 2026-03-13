@@ -8,19 +8,19 @@ body {
 }
 
 h1 {
-  color: blue;
+  color: white;
   font-family: tnr_cond;
   text-align: center;
 }
 
 h2 {
-    color: greenyellow;
+    color: whitesmoke;
     font-family: tnr_cond;
     text-align: center;
 }
 
 p {
-  color: black;
+  color: whitesmoke;
   font-family: tnr_cond;
   text-align: center;
 }
