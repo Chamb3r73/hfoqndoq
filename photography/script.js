@@ -1,0 +1,1 @@
+// JavaScript components for HFOQNDOQ
