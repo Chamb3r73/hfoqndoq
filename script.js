@@ -4,7 +4,7 @@ document.getElementById("blog").onclick = function () {
 };
 
 document.getElementById("works").onclick = function () {
-    window.location.href = "works/index.html";
+    window.location.href = "works/";
 };
 
 document.getElementById("photography").onclick = function () {
