@@ -22,10 +22,13 @@ body {
 }
 
 main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   background-color: #292626;
 }
 
 .profile {
+  display: grid;
   /* this font might be good im not sure. id like to use a more custom font later */
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: white;
@@ -41,4 +44,10 @@ main {
   font-family:'Courier New', Courier, monospace;
   max-width: 410px;
   text-overflow: clip;
+}
+
+.buttons {
+  display: grid;
+  font-family:'Courier New', Courier, monospace;
+  color: white;
 }
