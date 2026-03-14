@@ -11,6 +11,7 @@ body {
   background-color: #d72324;
   color: white;
   font-family: tnr_cond;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-align: center;
   margin: 0px;
   width: 100%;
@@ -23,7 +24,7 @@ body {
 
 main {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
   background-color: #292626;
 }
 
@@ -48,6 +49,24 @@ main {
 
 .buttons {
   display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-evenly;
+  
+  gap: 0px;
+
   font-family:'Courier New', Courier, monospace;
+}
+
+.buttons p {
   color: white;
+}
+
+.buttons button {
+  background-color: #3d3d3d;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  width: 200px;
+  height: 60px;
 }
